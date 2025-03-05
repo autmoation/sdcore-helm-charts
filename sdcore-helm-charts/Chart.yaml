@@ -42,3 +42,8 @@ dependencies:
     version: 2.0.1
     repository: "file://../5g-ran-sim"
     condition: 5g-ran-sim.enable
+    
+  - name: prometheus
+    version: 25.7.0  # Replace with the latest stable version
+    repository: "https://prometheus-community.github.io/helm-charts"
+    condition: prometheus.enabled
